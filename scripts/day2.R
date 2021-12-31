@@ -6,8 +6,3 @@ sums <- dat %>%
     summarise(sum = sum(amnt))
 
 (sums[sums$dir=="down",2] - sums[sums$dir=="up",2]) * sums[sums$dir=="forward",2] 
-
-
-
-
-
